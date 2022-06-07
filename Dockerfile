@@ -3,7 +3,7 @@ FROM ${BASE}
 
 LABEL maintainer="Brian J. Cardiff <bcardiff@gmail.com>"
 
-ARG RCLONE_VERSION=current
+ARG RCLONE_VERSION=v1.58.1
 ARG ARCH=amd64
 ENV SYNC_SRC=
 ENV SYNC_DEST=
