@@ -1,9 +1,9 @@
-ARG BASE=alpine:3.9
+ARG BASE=alpine:3.19
 FROM ${BASE}
 
 LABEL maintainer="Brian J. Cardiff <bcardiff@gmail.com>"
 
-ARG RCLONE_VERSION=v1.58.1
+ARG RCLONE_VERSION=v1.66.0
 ARG ARCH=amd64
 ENV SYNC_SRC=
 ENV SYNC_DEST=
